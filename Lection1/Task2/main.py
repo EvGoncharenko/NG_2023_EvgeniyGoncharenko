@@ -1,4 +1,5 @@
-input("Hello. Click 'Enter' to get started.")
-ageone = input("Enter your age: ")
-agetwo = input("Enter your friend's age: ")
-print("Result of summing numbers: ", int(ageone) + int(agetwo))
+input("Press Enter to start")
+
+numone = int(input("Enter a three-digit number:"))
+numtwo = int(input("Enter a two-digit number:"))
+print("Result:", (numone) + (numtwo))
