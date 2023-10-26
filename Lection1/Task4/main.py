@@ -17,7 +17,7 @@ match sing:
     case "/":
         numone = float(input("Enter first the number: "))
         numtwo = float(input("Enter second the number: "))
-        print("Result:", "%.1f" % ((numone) / (numtwo)))
+        print("Result:", (numone) / (numtwo))
     case "**":
         num = float(input("Enter the number: "))
         deg = int(input("Enter degree: "))
