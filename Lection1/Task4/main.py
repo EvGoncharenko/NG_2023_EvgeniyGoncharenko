@@ -6,21 +6,21 @@ if sing == "+" or sing == "-" or sing == "*" or sing == "/":
     numtwo = float(input("Enter the second number: "))
     match sing:
         case "+":
-            print("Result:", (numone) + (numtwo))
+            print((numone) + (numtwo))
         case "-":
-            print("Result:", (numone) - (numtwo))
+            print((numone) - (numtwo))
         case "*":
-            print("Result:", (numone) * (numtwo))
+            print((numone) * (numtwo))
         case "/":
-            print("Result:", (numone) / (numtwo))
+            print((numone) / (numtwo))
 elif sing == "**" or sing == "√":
     match sing:
         case "**":
             num = float(input("Enter the number: "))
             deg = int(input("Enter degree: "))
-            print("Result:", (num) ** (deg))
+            print((num) ** (deg))
         case "√":
             num = int(input("Enter the number: "))
-            print("Result:", math.isqrt(num))
+            print(math.isqrt(num))
 else:
     print("This sign is missing! Choose from the above")
